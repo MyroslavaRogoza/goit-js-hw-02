@@ -2,7 +2,7 @@ function formatMessage(message, maxLength){
     if (message.length <= maxLength){
         return message;
     }
-    else{
+    else {
         let NewMessage = message.slice(0, maxLength)+'...';
         return NewMessage;   
     }  
